@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Modern Silver Necklace",
+    "description": "A stylish and modern silver",
+    "price": 250.70,
+    "image": "/imajes/infinity-v.jpg",
+    "category": "Silver"
+  },
+
+  {
+    "id": 2,
+    "title": "Silver Necklace",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates quaerat eligendi dolores dolor! Omnis blanditiis odio ipsum vitae perspiciatis atque at explicabo amet, quis nulla molestias cupiditate commodi in?",
+    "price": 50.50,
+    "image": "/imajes/jewl.webp",
+    "category": "Silver"
+  },
+
+  {
+    "id": 3,
+    "title": "Jewelry Ring",
+    "description": "Modern design jewelry ring",
+    "price": 17.90,
+    "image": "/imajes/sil-tros.webp",
+    "category": "Bijouterie"
+  },
+
+  {
+    "id": 4,
+    "title": "Handle smart watch",
+    "description": "Smart watch for everybody",
+    "price": 500,
+    "image": "/imajes/jewl.webp",
+    "category": "Gold"
+  },
+
+  {
+    "id": 5,
+    "title": "Watch",
+    "description": "A stylish and durable watch",
+    "price": 250,
+    "image": "/imajes/product-1.jpg",
+    "category": "Gold"
+  },
+
+  {
+    "id": 6,
+    "title": "Silver Necklace",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates quaerat eligendi dolores dolor! Omnis blanditiis odio ipsum vitae perspiciatis atque at explicabo amet, quis nulla molestias cupiditate commodi in?",
+    "price": 50,
+    "image": "/imajes/jewl.webp",
+    "category": "Silver"
+  },
+
+  {
+    "id": 7,
+    "title": "Jewelry Ring",
+    "description": "Modern design jewelry ring",
+    "price": 10,
+    "image": "/imajes/jewelry-1.jpg",
+    "category": "Bijouterie"
+  },
+
+  {
+    "id": 8,
+    "title": "Handle smart watch",
+    "description": "Smart watch for everybody",
+    "price": 500,
+    "image": "/imajes/jewl.webp",
+    "category": "Gold"
+  },
+
+  {
+    "id": 9,
+    "title": "Watch",
+    "description": "A stylish and durable watch",
+    "price": 250.25,
+    "image": "/imajes/product-1.jpg",
+    "category": "Gold"
+  },
+
+  {
+    "id": 10,
+    "title": "Silver Necklace",
+    "description": "Custom design silver necklace",
+    "price": 50,
+    "image": "/imajes/silver-1.jpg",
+    "category": "Silver"
+  },
+
+  {
+    "id": 11,
+    "title": "Jfdsdffdsf",
+    "description": "Modern design jewelry ring",
+    "price": 5.00,
+    "image": "/imajes/gold1-v.webp",
+    "category": "Bijouterie"
+  },
+
+  {
+    "id": 12,
+    "title": "Vay ebe",
+    "description": "Smart watch for everybody",
+    "price": 500.00,
+    "image": "/imajes/infinity-v.jpg",
+    "category": "Gold"
+  }
+
+]
