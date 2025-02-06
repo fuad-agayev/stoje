@@ -42,8 +42,10 @@ const { addToCart } = useCart()
 const route = useRoute();
 const { products } = useProducts();
 const product = ref(null);
-const quantity = ref(0)
-const loading = ref(true)
+const quantity = ref(0);
+const loading = ref(true);
+
+
   
 const localPrice = computed(() => {
  return product.value ? product.value.price * quantity.value : 0;
@@ -69,6 +71,9 @@ onMounted(() => {
     }
      }, 3000)
 });
+
+
+
 </script>
 
 <style scoped>

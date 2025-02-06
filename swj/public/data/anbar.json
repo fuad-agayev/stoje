@@ -1,110 +1,111 @@
 [
+  
   {
     "id": 1,
-    "title": "Modern Silver Necklace",
+    "title": "Modern Silver laptop",
     "description": "A stylish and modern silver",
     "price": 250.70,
-    "image": "/imajes/infinity-v.jpg",
-    "category": "Silver"
+    "image": "/imajes/lap-1.jpg",
+    "category": "laptop"
   },
 
   {
     "id": 2,
-    "title": "Silver Necklace",
+    "title": "Silver Necklace TV",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates quaerat eligendi dolores dolor! Omnis blanditiis odio ipsum vitae perspiciatis atque at explicabo amet, quis nulla molestias cupiditate commodi in?",
     "price": 50.50,
     "image": "/imajes/jewl.webp",
-    "category": "Silver"
+    "category": "tv"
   },
 
   {
     "id": 3,
-    "title": "Jewelry Ring",
+    "title": "Jewelry Ring Camera",
     "description": "Modern design jewelry ring",
     "price": 17.90,
     "image": "/imajes/sil-tros.webp",
-    "category": "Bijouterie"
+    "category": "camera"
   },
 
   {
     "id": 4,
-    "title": "Handle smart watch",
+    "title": "Handle smart watch Camera",
     "description": "Smart watch for everybody",
     "price": 500,
     "image": "/imajes/jewl.webp",
-    "category": "Gold"
+    "category": "camera"
   },
 
   {
     "id": 5,
-    "title": "Watch",
+    "title": "Watch Phone",
     "description": "A stylish and durable watch",
     "price": 250,
     "image": "/imajes/product-1.jpg",
-    "category": "Gold"
+    "category": "phone"
   },
-
+  
   {
     "id": 6,
-    "title": "Silver Necklace",
+    "title": "Silver Necklace Head Phone",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates quaerat eligendi dolores dolor! Omnis blanditiis odio ipsum vitae perspiciatis atque at explicabo amet, quis nulla molestias cupiditate commodi in?",
     "price": 50,
     "image": "/imajes/jewl.webp",
-    "category": "Silver"
+    "category": "headphone"
   },
 
   {
     "id": 7,
-    "title": "Jewelry Ring",
+    "title": "Jewelry Ring Watch",
     "description": "Modern design jewelry ring",
     "price": 10,
     "image": "/imajes/jewelry-1.jpg",
-    "category": "Bijouterie"
+    "category": "watch"
   },
 
   {
     "id": 8,
-    "title": "Handle smart watch",
+    "title": "Handle smart Tablet",
     "description": "Smart watch for everybody",
     "price": 500,
     "image": "/imajes/jewl.webp",
-    "category": "Gold"
+    "category": "Tablet"
   },
 
   {
     "id": 9,
-    "title": "Watch",
+    "title": "Watct All",
     "description": "A stylish and durable watch",
     "price": 250.25,
     "image": "/imajes/product-1.jpg",
-    "category": "Gold"
+    "category": "all"
   },
 
   {
     "id": 10,
-    "title": "Silver Necklace",
+    "title": "Silver Necklace Accessory",
     "description": "Custom design silver necklace",
     "price": 50,
     "image": "/imajes/silver-1.jpg",
-    "category": "Silver"
+    "category": "accessory"
   },
 
   {
     "id": 11,
-    "title": "Jfdsdffdsf",
+    "title": "Jfdsdffdsf TV Sharp",
     "description": "Modern design jewelry ring",
     "price": 5.00,
     "image": "/imajes/gold1-v.webp",
-    "category": "Bijouterie"
+    "category": "tv"
   },
 
   {
     "id": 12,
-    "title": "Vay ebe",
+    "title": "Vay ebe Apple Phone",
     "description": "Smart watch for everybody",
     "price": 500.00,
     "image": "/imajes/infinity-v.jpg",
-    "category": "Gold"
+    "category": "phone"
   }
 
 ]

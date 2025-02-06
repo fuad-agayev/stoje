@@ -1,12 +1,12 @@
 <template>
-  <div class="relative w-full h-[700px] flex items-center justify-start gap-16">
+  <div class="relative w-full h-[700px] flex items-center justify-center gap-16">
     <div class="relative w-[1000px] h-max shadow-xl rounded">
 
       <ul class="flex justify-center items-center">
           <li v-for="item in items" :key="item" class="w-[200px] h-[50px] text-center">{{ item }}</li>
       </ul>
     
-      <ul class="flex justify-start items-center col-gap-4" v-for="item in cart" :key="item.id">
+      <ul class="flex justify-center items-center col-gap-4" v-for="item in cart" :key="item.id">
            <li class="w-[200px] h-[50px]"><img :src="item.image" alt="item.title" class="w-[200px] h-[50px]"/></li>
            <li class="w-[200px] h-[50px] text-center pt-2 mt-1">{{ item.title }}</li>
            <li class="w-[200px] h-[50px] text-center pt-2 mt-1">{{ item.price }} $</li>
@@ -19,10 +19,6 @@
       <button class="text-indigo-500 w-[165px] h-[35px] font-medium bg-white" @click="clearCart()"> Total clear Cart </button>
     </div>
     </div>
-
-     <div class="w-[500px] h-[500px] max-h-full border border-zinc-400">
-
-     </div>
   </div>
 </template>
 

@@ -1,19 +1,20 @@
 <template>
-  <div class="fixed top-0 right-0 w-[370px] h-screen rounded bg-black/70 backdrop-blur-md z-[99]">
+   <div class="fixed top-0 left-0 rounded w-full h-screen bg-black/85 z-[1000]">
+  <div class="fixed top-0 right-0 rounded w-full sm:w-[350px] h-screen bg-white backdrop-blur-md z-[999]">
       <div class="w-full h-12 border-b-2">
          <div class="ml-3 mt-3 w-[35px] h-[35px] hover:border hover:border-rose-400 hover:scale-105 cursor-pointer text-center">
-            <p class="text-white mt-px text-lg" @click="$emit('close')"> X </p>
+            <p class="text-zinc-700 mt-px text-lg" @click="$emit('close')"> X </p>
          </div>
       </div>
 
       <div class="">
-            <h1 class="text-center text-xl text-white font-bold mt-4"> YOUR CART </h1>
+            <h1 class="text-center text-xl text-neutral-400 font-bold mt-4"> YOUR CART </h1>
             
             <div class="w-full">
-               <h4  v-if="cart.length === 0" class="absolute top-1/3 left-1/3 transform -translate-x-1/3 -translate-y-1/3 w-full text-zinc-50 text-center text-medium text-lg scale-95
+               <h4  v-if="cart.length === 0" class="absolute top-1/3 left-1/3 transform -translate-x-1/3 -translate-y-1/3 w-full text-zinc-500 text-center text-medium text-lg scale-95
                                                ">Hi There...  Yout cart is empty!</h4>
-              <div class="mt-4 w-[350px] h-[125px] m-[10px] flex justify-start items-center gap-8 border border-zinc-400 rounded" v-for="item in cart" :key="item.id">
-                       <img :src="item.image" alt="item.title" class="w-[80px] h-[100px] object-cover rounded-lg"/>
+              <div class="mt-4 w-[300px] h-[125px] m-[10px] flex justify-start items-center gap-8 bg-black/70 border border-zinc-400 rounded" v-for="item in cart" :key="item.id">
+                       <img :src="item.image" alt="item.title" class="w-[80px] h-[100px] ml-4 object-cover rounded-lg"/>
                        <div class="">
                         <h3 class="font-bold text-[14px] pt-2 text-blue-500">{{ item.title }}</h3>
                         <p class="text-[14px] font-bold text-zinc-200">{{ item.price.toFixed(2) }} $</p>
@@ -44,13 +45,14 @@
          
            <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-full">
                <div class="flex justify-center items-center gap-3 mb-2 ml-2">
-                  <p class="w-[140px] h-[35px] text-[14px] border text-white text-center pt-1 rounded"> {{ totalPrice.toFixed(2) }} $</p>
-                  <p class="w-[140px] h-[35px] text-[14px] border text-white text-center cursor-pointer pt-1 rounded hover:bg-slate-50 hover:text-zinc-700" @click="addSomeProuct"> Clear Cart </p>
+                  <p class="w-[140px] h-[35px] text-[14px] text-zinc-700 text-center pt-1 rounded"> {{ totalPrice.toFixed(2) }} $</p>
+                  <p class="w-[140px] h-[35px] text-[14px] border text-zinc-700 text-center cursor-pointer pt-1 rounded hover:bg-slate-50 hover:text-zinc-700" @click="addSomeProuct"> Clear Cart </p>
                </div>
                <button class="text-indigo-50 w-[300px] ml-10 h-[35px] font-medium bg-indigo-500 rounded pb-1 hover:bg-zinc-50 hover:text-indigo-500  hover:scale-y-105" @click="proceedCheckout"> checkout </button>
            </div>
       </div>
   </div>
+</div>
 </template>
 <script setup>
 import { useRouter } from 'vue-router';
