@@ -8,7 +8,7 @@
       </div>
 
       <div class="">
-            <h1 class="text-center text-xl text-neutral-400 font-bold mt-4"> CART </h1>
+            <h1 class="text-center text-xl text-neutral-400 font-bold mt-4"> YOUR CART </h1>
             
             <div class="w-full">
                <h4  v-if="cart.length === 0" class="absolute top-1/3 left-1/3 transform -translate-x-1/3 -translate-y-1/3 w-full text-zinc-500 text-center text-medium text-lg scale-95
