@@ -1,5 +1,5 @@
 <template>
-  <div class="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-screen bg-black/80 backdrop-blur-md z-[1000] flex justify-center items-center">
+  <div class="fixed top-1/2 left-1/2 px-4 transform -translate-x-1/2 -translate-y-1/2 w-full h-screen bg-black/80 backdrop-blur-md z-[1000] flex justify-center items-center">
       <div class="relative w-[500px] h-[500px] bg-white/50 rounded-[10px]">
            <div class="absolute top-4 right-4 w-[30px] h-[30px] border border-zinc-700 hover:scale-110 rounded">
                 <p class="text-black text-lg cursor-pointer text-center" @click="$emit('closePopup')"> X </p>

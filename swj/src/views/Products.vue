@@ -2,8 +2,8 @@
   <div class="w-full h-[880px] flex justify-center items-start bg-black/70"> 
 
   <!--  Skeleton  -->
-    <div v-if="loading" class="p-4 max-w-3xl mx-auto w-[700px] mt-8">
-      <div class="w-[700px] h-[250px] bg-gray-50 rounded-lg mb-4 animate-pulse"></div>
+    <div v-if="loading" class="px-2 w-full max-w-[700px] mt-8">
+      <div class="w-full h-[250px] bg-gray-50 rounded-lg mb-4 animate-pulse"></div>
       <div class="h-8 bg-gray-50 rounded w-3/4 mb-4 animate-pulse"></div>
       <div class="h-6 bg-gray-50 rounded w-full mb-4 animate-pulse"></div>
       <div class="h-6 bg-gray-50 rounded w-1/2 mb-4 animate-pulse"></div>

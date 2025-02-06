@@ -1,8 +1,8 @@
 <template>
-  <div class="relative w-[700px] h-[400px] mx-auto overflow-hidden mt-4">
+  <div class="relative w-full max-w-[700px] h-[400px] mx-auto overflow-hidden mt-4">
        <div class="flex transition-transform duration-700 ease-in-out" :style="{transform: `translateX(-${currentIndex * 100 }%)`}">
-           <div v-for="(image, index) in photoes" :key="index" class="min-w-[700px] flex-shrink-0">
-               <img :src="image" alt="" class="w-[700px] h-[400px] object-cover rounded"/>
+           <div v-for="(image, index) in photoes" :key="index" class="w-full flex-shrink-0">
+               <img :src="image" alt="" class="w-full h-[400px] object-cover rounded"/>
            </div>
        </div>
       <button @click="prev" class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white p-2 rounded"><i class="bx bx-chevron-left text-lg"></i></button>
